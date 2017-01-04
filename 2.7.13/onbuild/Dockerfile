@@ -1,6 +1,4 @@
-FROM lgatica/python-alpine:2.7.12
-
-MAINTAINER Leonardo Gatica <lgatica@protonmail.com>
+FROM lgatica/python-alpine:2.7.13
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app

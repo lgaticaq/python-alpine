@@ -9,15 +9,16 @@
 - 3.5.2, 3.5, 3, latest ([3.5/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/3.5.2/Dockerfile))
 - 3.5.2-onbuild, 3.5-onbuild, 3-onbuild, onbuild ([3.5/onbuild/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/3.5.2/onbuild/Dockerfile))
 - 3.5.2-flake8, 3.5-flake8, 3-flake8, flake8 ([3.5/flake8/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/3.5.2/flake8/Dockerfile))
-- 2.7.12, 2.7, 2 ([2.7/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/2.7.12/Dockerfile))
-- 2.7.12-onbuild, 2.7-onbuild, 2-onbuild ([2.7/onbuild/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/2.7.12/onbuild/Dockerfile))
-- 2.7.12-flake8, 2.7-flake8, 2-flake8 ([2.7/flake8/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/2.7.12/flake8/Dockerfile))
+- 2.7.13, 2.7, 2 ([2.7/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/2.7.13/Dockerfile))
+- 2.7.13-onbuild, 2.7-onbuild, 2-onbuild ([2.7/onbuild/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/2.7.13/onbuild/Dockerfile))
+- 2.7.13-flake8, 2.7-flake8, 2-flake8 ([2.7/flake8/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/2.7.13/flake8/Dockerfile))
 
 ## Create a Dockerfile in your Python app project
 ```dockerfile
 FROM lgatica/python-alpine:3-onbuild
 # replace this with your application's default port
 EXPOSE 8000
+CMD [ "python", "app.py" ]
 ```
 
 You can then build and run the Docker image:
