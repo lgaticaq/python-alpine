@@ -1,4 +1,4 @@
-FROM python:3.5.2-alpine
+FROM python:3.6.0-alpine
 
 MAINTAINER Leonardo Gatica <lgatica@protonmail.com>
 
