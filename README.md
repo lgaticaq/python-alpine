@@ -7,9 +7,9 @@
 
 > Docker Image for python/django apps with alpine linux and dependencies for postgresql, pillow, lxml and fii
 
-- 3.6.1, 3.6, 3, latest ([3.6/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/3.6.1/Dockerfile))
-- 3.6.1-onbuild, 3.6-onbuild, 3-onbuild, onbuild ([3.6/onbuild/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/3.6.1/onbuild/Dockerfile))
-- 3.6.1-flake8, 3.6-flake8, 3-flake8, flake8 ([3.6/flake8/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/3.6.1/flake8/Dockerfile))
+- 3.6.2, 3.6, 3, latest ([3.6/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/3.6.2/Dockerfile))
+- 3.6.2-onbuild, 3.6-onbuild, 3-onbuild, onbuild ([3.6/onbuild/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/3.6.2/onbuild/Dockerfile))
+- 3.6.2-flake8, 3.6-flake8, 3-flake8, flake8 ([3.6/flake8/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/3.6.2/flake8/Dockerfile))
 - 2.7.13, 2.7, 2 ([2.7/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/2.7.13/Dockerfile))
 - 2.7.13-onbuild, 2.7-onbuild, 2-onbuild ([2.7/onbuild/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/2.7.13/onbuild/Dockerfile))
 - 2.7.13-flake8, 2.7-flake8, 2-flake8 ([2.7/flake8/Dockerfile](https://github.com/lgaticaq/python-alpine/blob/master/2.7.13/flake8/Dockerfile))

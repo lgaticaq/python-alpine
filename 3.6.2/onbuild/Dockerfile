@@ -1,4 +1,4 @@
-FROM lgatica/python-alpine:3.6.1
+FROM lgatica/python-alpine:3.6.2
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app

@@ -6,7 +6,7 @@ services:
 env:
   matrix :
     - env:
-      PYTHON_PATCH_VERSION: '3.6.1'
+      PYTHON_PATCH_VERSION: '3.6.2'
       PYTHON_MINOR_VERSION: '3.6'
       PYTHON_MAJOR_VERSION: '3'
       LATEST: 'latest'
