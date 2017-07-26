@@ -1,4 +1,4 @@
-FROM python:3.6.2-alpine
+FROM python:3.6.2-alpine3.6
 
 LABEL maintainer "Leonardo Gatica <lgatica@protonmail.com>"
 
