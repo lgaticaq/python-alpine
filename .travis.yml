@@ -11,7 +11,7 @@ env:
       PYTHON_MAJOR_VERSION: '3'
       LATEST: 'latest'
     - env:
-      PYTHON_PATCH_VERSION: '2.7.13'
+      PYTHON_PATCH_VERSION: '2.7.14'
       PYTHON_MINOR_VERSION: '2.7'
       PYTHON_MAJOR_VERSION: '2'
 
