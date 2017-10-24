@@ -1,4 +1,4 @@
-FROM lgatica/python-alpine:3.6.2@sha256:872c9d2a0f6e210158eb02774a8517ed797236d7fac339414406fe67f3c5e079
+FROM lgatica/python-alpine:3.6.2@sha256:fe51ae0b0910297195a2c444b19c7904c555f8f80bcb9ce56ce7dc1428d54a39
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
