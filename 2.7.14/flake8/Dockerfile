@@ -1,3 +1,3 @@
-FROM lgatica/python-alpine:2.7.14@sha256:9e0d8d105fa9e4b96533919f1e5f0d4bbaaaf4e6e94c015878a13533bf43fe06
+FROM lgatica/python-alpine:2.7.14@sha256:937671e0d4bd4282347c422108481ad6d7c9171b735b5dada5708e237732939d
 
 RUN pip install flake8
